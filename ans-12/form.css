@@ -1,0 +1,36 @@
+*{
+margin:0;
+padding:0;
+}
+header{
+padding:22px;
+color:white;
+background-color:#d3d3d3;
+height:60px;
+}
+section{
+padding:20px;
+height:450px;
+}
+section input{
+width:40%;
+}
+footer{
+height:100px;
+background-color:#E0E0E0;
+}
+footer input{
+float:right;
+margin-top:25px;
+margin-right:25px;
+}
+select{
+height:35px;
+background-color:#00A86B;
+width:65%;
+}
+input radio{
+width:40px;;
+}
+
+
