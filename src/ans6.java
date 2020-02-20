@@ -4,19 +4,10 @@ import java.util.Map;
 public class ans6 {
     public static void main(String[] args) {
         int a[]=new int[]{1,2,2,3,1,3,4,5,4};// 5 occurred once only
-        HashMap<Integer,Integer> h=new HashMap<Integer,Integer>();
-        for (int i:a) {
-           if(h.containsKey(i)){
-                h.put(i,h.get(i)+1);
-           }else{
-               h.put(i,1);
-           }
+        int x=a[0];
+        for (int i = 1; i <a.length ; i++) {
+               x=x^a[i];
         }
-        for(Map.Entry entry :h.entrySet()){
-            if(entry.getValue().equals(1)){
-                System.out.println(entry.getKey()+" "+"occurred once only");
-            }
-        }
-
+        System.out.println(x+" "+"occurred once");
     }
 }
