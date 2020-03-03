@@ -24,7 +24,6 @@ jar{
     }
 }
 
-
 // Ans4 - Connecting the newly created show-date plugin to the application by defining its classpath
 buildscript {
     dependencies {
@@ -33,6 +32,10 @@ buildscript {
 }
 
 apply plugin: 'show-date-plugin'
+
+
+
+
 
 
 // Ans5 - Modifying the sourceSets to consider javaCode1 and javaCode2 as source code sirs instead of just java
