@@ -1,0 +1,7 @@
+services/ClassConfigurationService.class
+implementations/ClassConfig.class
+MainComponent.class
+implementations/StudentClassServiceImpl.class
+services/StudentClassService.class
+bean/Student.class
+implementations/ClassConfigurationServiceImpl.class

@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1583434420575
+Build-Jdk: 1.8.0_242
+Built-By: ammar
+Bundle-ManifestVersion: 2
+Bundle-Name: OSGI_ANS
+Bundle-SymbolicName: org.example.OSGI_ANS
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: bean;version="1.0.0",implementations;uses:="bean,service
+ s";version="1.0.0",services;uses:=bean;version="1.0.0"
+Import-Package: bean,services
+Provide-Capability: osgi.service;objectClass:List<String>="services.Clas
+ sConfigurationService",osgi.service;objectClass:List<String>="services.
+ StudentClassService"
+Require-Capability: osgi.service;filter:="(objectClass=services.ClassCon
+ figurationService)";effective:=active,osgi.service;filter:="(objectClas
+ s=services.StudentClassService)";effective:=active,osgi.extender;filter
+ :="(&(osgi.extender=osgi.component)(version>=1.4.0)(!(version>=2.0.0)))
+ ",osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/MainComponent.xml,OSGI-INF/implementations.C
+ lassConfigurationServiceImpl.xml,OSGI-INF/implementations.StudentClassS
+ erviceImpl.xml
+Tool: Bnd-4.1.0.201810181252
