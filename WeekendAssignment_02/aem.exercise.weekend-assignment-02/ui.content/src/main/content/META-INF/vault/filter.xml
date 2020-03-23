@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/weekend-assignment-02" mode="merge"/>
+    <filter root="/content/weekend-assignment-02" mode="merge"/>
+    <filter root="/content/dam/weekend-assignment-02" mode="merge"/>
+</workspaceFilter>

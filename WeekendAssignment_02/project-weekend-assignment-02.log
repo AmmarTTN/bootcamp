@@ -1,0 +1,52 @@
+2020-03-24 01:08:46.159 INFO [com.aem.training.core.services.Impl.MarketBlogImpl] ..........
+2020-03-24 01:08:46.160 INFO [com.aem.training.core.services.Impl.MarketBlogImpl] MarketBlog started
+2020-03-24 01:08:46.161 INFO [com.aem.training.core.services.Impl.TechBlogImpl] TechBlog started
+2020-03-24 01:08:46.162 INFO [com.aem.training.core.services.Impl.BlogsCollectorImpl] Inside Blog Collector
+2020-03-24 01:08:46.162 INFO [com.aem.training.core.services.Impl.BlogsCollectorImpl] === START : MARKET BLOG ===
+2020-03-24 01:08:46.162 INFO [com.aem.training.core.services.Impl.BlogsCollectorImpl] Category: Marketing
+2020-03-24 01:08:46.162 INFO [com.aem.training.core.services.Impl.BlogsCollectorImpl] Rank: 2
+2020-03-24 01:08:46.162 INFO [com.aem.training.core.services.Impl.BlogsCollectorImpl] === END : MARKET BLOG ===
+2020-03-24 01:08:46.162 INFO [com.aem.training.core.services.Impl.BlogsCollectorImpl] === START : TECH BLOG ===
+2020-03-24 01:08:46.162 INFO [com.aem.training.core.services.Impl.BlogsCollectorImpl] Category: Technology
+2020-03-24 01:08:46.162 INFO [com.aem.training.core.services.Impl.BlogsCollectorImpl] Rank: 1
+2020-03-24 01:08:46.162 INFO [com.aem.training.core.services.Impl.BlogsCollectorImpl] === END : TECH BLOG ===
+2020-03-24 01:08:46.163 INFO [com.aem.training.core.services.Impl.BlogsCollectorImpl] Sorted list of blogs: 
+2020-03-24 01:08:46.163 INFO [com.aem.training.core.services.Impl.BlogsCollectorImpl] Category: Technology || Rank: 1
+2020-03-24 01:08:46.163 INFO [com.aem.training.core.services.Impl.BlogsCollectorImpl] Category: Marketing || Rank: 2
+2020-03-24 01:08:46.163 INFO [com.aem.training.core.services.Impl.BlogsCollectorImpl] ..........
+2020-03-24 01:11:29.226 INFO [com.aem.training.core.services.Impl.MarketBlogImpl] ..........
+2020-03-24 01:11:29.229 INFO [com.aem.training.core.services.Impl.MarketBlogImpl] MarketBlog started
+2020-03-24 01:11:29.229 INFO [com.aem.training.core.services.Impl.TechBlogImpl] TechBlog started
+2020-03-24 01:11:29.229 INFO [com.aem.training.core.services.Impl.BlogsCollectorImpl] Inside Blog Collector
+2020-03-24 01:11:29.229 INFO [com.aem.training.core.services.Impl.BlogsCollectorImpl] === START : MARKET BLOG ===
+2020-03-24 01:11:29.229 INFO [com.aem.training.core.services.Impl.BlogsCollectorImpl] Category: Marketing
+2020-03-24 01:11:29.229 INFO [com.aem.training.core.services.Impl.BlogsCollectorImpl] Rank: 1
+2020-03-24 01:11:29.229 INFO [com.aem.training.core.services.Impl.BlogsCollectorImpl] === END : MARKET BLOG ===
+2020-03-24 01:11:29.229 INFO [com.aem.training.core.services.Impl.BlogsCollectorImpl] === START : TECH BLOG ===
+2020-03-24 01:11:29.229 INFO [com.aem.training.core.services.Impl.BlogsCollectorImpl] Category: Technology
+2020-03-24 01:11:29.229 INFO [com.aem.training.core.services.Impl.BlogsCollectorImpl] Rank: 1
+2020-03-24 01:11:29.229 INFO [com.aem.training.core.services.Impl.BlogsCollectorImpl] === END : TECH BLOG ===
+2020-03-24 01:11:29.229 INFO [com.aem.training.core.services.Impl.BlogsCollectorImpl] Sorted list of blogs: 
+2020-03-24 01:11:29.229 INFO [com.aem.training.core.services.Impl.BlogsCollectorImpl] Category: Marketing || Rank: 1
+2020-03-24 01:11:29.229 INFO [com.aem.training.core.services.Impl.BlogsCollectorImpl] Category: Technology || Rank: 1
+2020-03-24 01:11:29.229 INFO [com.aem.training.core.services.Impl.BlogsCollectorImpl] ..........
+2020-03-24 01:12:02.299 INFO [com.aem.training.core.services.Impl.MarketBlogImpl] ..........
+2020-03-24 01:12:02.299 INFO [com.aem.training.core.services.Impl.MarketBlogImpl] MarketBlog started
+2020-03-24 01:12:02.299 INFO [com.aem.training.core.services.Impl.TechBlogImpl] TechBlog started
+2020-03-24 01:12:02.299 INFO [com.aem.training.core.services.Impl.BlogsCollectorImpl] Inside Blog Collector
+2020-03-24 01:12:02.299 INFO [com.aem.training.core.services.Impl.BlogsCollectorImpl] === START : MARKET BLOG ===
+2020-03-24 01:12:02.299 INFO [com.aem.training.core.services.Impl.BlogsCollectorImpl] Category: Marketing
+2020-03-24 01:12:02.299 INFO [com.aem.training.core.services.Impl.BlogsCollectorImpl] Rank: 1
+2020-03-24 01:12:02.299 INFO [com.aem.training.core.services.Impl.BlogsCollectorImpl] === END : MARKET BLOG ===
+2020-03-24 01:12:02.299 INFO [com.aem.training.core.services.Impl.BlogsCollectorImpl] === START : TECH BLOG ===
+2020-03-24 01:12:02.299 INFO [com.aem.training.core.services.Impl.BlogsCollectorImpl] Category: Technology
+2020-03-24 01:12:02.299 INFO [com.aem.training.core.services.Impl.BlogsCollectorImpl] Rank: 2
+2020-03-24 01:12:02.299 INFO [com.aem.training.core.services.Impl.BlogsCollectorImpl] === END : TECH BLOG ===
+2020-03-24 01:12:02.299 INFO [com.aem.training.core.services.Impl.BlogsCollectorImpl] Sorted list of blogs: 
+2020-03-24 01:12:02.299 INFO [com.aem.training.core.services.Impl.BlogsCollectorImpl] Category: Marketing || Rank: 1
+2020-03-24 01:12:02.299 INFO [com.aem.training.core.services.Impl.BlogsCollectorImpl] Category: Technology || Rank: 2
+2020-03-24 01:12:02.299 INFO [com.aem.training.core.services.Impl.BlogsCollectorImpl] ..........
+2020-03-24 01:18:41.962 INFO [com.aem.training.core.services.Impl.BlogsCollectorImpl] Sorted list of blogs: 
+2020-03-24 01:18:41.962 INFO [com.aem.training.core.services.Impl.BlogsCollectorImpl] Category: Marketing || Rank: 1
+2020-03-24 01:18:41.962 INFO [com.aem.training.core.services.Impl.BlogsCollectorImpl] Category: Technology || Rank: 2
+2020-03-24 01:18:41.962 INFO [com.aem.training.core.services.Impl.BlogsCollectorImpl] ..........
