@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:vlt="http://www.day.com/jcr/vault/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2020-04-08T01:04:06.341+05:30"
+    jcr:createdBy="admin"
+    jcr:lastModified="{Date}2020-04-08T01:04:06.341+05:30"
+    jcr:lastModifiedBy="admin"
+    jcr:primaryType="vlt:PackageDefinition"
+    buildCount="1"
+    group="com.ttn.training"
+    lastUnwrapped="{Date}2020-04-08T01:04:06.341+05:30"
+    lastUnwrappedBy="admin"
+    lastWrapped="{Date}2020-04-08T01:04:06.341+05:30"
+    lastWrappedBy="admin"
+    name="HTLsession"
+    version="1.0">
+    <filter jcr:primaryType="nt:unstructured">
+        <f0
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/content/HTLsession"
+            rules="[]"/>
+        <f1
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/content/my-options"
+            rules="[]"/>
+        <f2
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/apps/solution"
+            rules="[]"/>
+    </filter>
+</jcr:root>

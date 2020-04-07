@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<!--/* Ques 2: Create a list of resources under /content/my-options and 
+add two properties "text" and "value" on each resource. 
+Create a dropdown (HTML select) using the resources list as options. */ -->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>${properties.jcr:title}</title>
+  </head>
+  <body data-sly-use.Object="ResourceSelector" style="text-align:center">
+      
+      <h3>Seasons</h3>
+
+      <select data-sly-list.myitem="${object.parentPage}">
+        <option>${myitem.jcr:title}</option>
+      </select>
+
+  </body>
+</html>

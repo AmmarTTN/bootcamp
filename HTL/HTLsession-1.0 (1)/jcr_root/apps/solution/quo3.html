@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<!--/* Ques 3: Read the color property from the current node and set it as the background of the page. */-->
+
+<html>
+<head>
+    <title>${properties.jcr:title}</title>
+    <meta charset="utf-8">
+    
+    <style>
+        body {
+            text-align: center;
+            background-color: ${properties.color @context='styleString'}
+        }
+    </style>
+</head>
+
+
+ <body>
+
+    <h3>Node Details</h3>
+    <p>Current Node: ${currentNode.Name}</p>
+    <p>Node Path: ${currentNode.Path}</p>
+    
+    <h3>Properties</h3>
+    <p>Title: ${properties.jcr:title}</p>
+    <p>BackgroundColor: ${properties.color}</p>
+
+
+</body>
+ 
+</html>

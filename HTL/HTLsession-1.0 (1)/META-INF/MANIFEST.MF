@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Content-Package-Roots: /content/my-options,/apps/solution,/content/HTL
+ session
+Content-Package-Type: mixed
+Content-Package-Id: com.ttn.training:HTLsession:1.0
+
